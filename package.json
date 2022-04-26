@@ -2,7 +2,7 @@
   "name": "vote-girl-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://votingapp.github.io",
+  "homepage": "https://votingapprepo.github.io/votingapp.github.io/",
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
