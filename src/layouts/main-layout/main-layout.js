@@ -39,7 +39,7 @@ export const MainLayout = () => {
         : <div className='voting-closed'>
             <span>Немає не проголосованих пар</span>
             <div>
-              <Button variant="contained" color="success" onClick={() => navigate('/account/profile')}>
+              <Button variant="contained" color="success" onClick={() => navigate('/votingapp.github.io/account/profile')}>
                 Переглянути таблицю результатів
               </Button>
               <LoadingButton

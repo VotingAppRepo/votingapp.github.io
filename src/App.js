@@ -15,7 +15,7 @@ import { Paths } from "./services/paths";
 import { useNavigate, useLocation } from "react-router-dom";
 import { Profile } from "./components/profile";
 
-const protectedRoutes = ['/', '/login', '/register']
+const protectedRoutes = ['/votingapp.github.io/', '/votingapp.github.io/login', '/votingapp.github.io/register']
 
 const App = () => {
   const dispatch = useDispatch();
@@ -35,15 +35,15 @@ const App = () => {
     <div className="App">
         <Header/>
         <Routes>
-            <Route path="/" element={<DraftLayout/>}/>
-                <Route path="account">
-                  <Route path="profile" element={<Profile/>}/>
-                  <Route path="voting" element={<MainLayout/>}/>
+            <Route path="/votingapp.github.io" element={<DraftLayout/>}/>
+                <Route path="/account">
+                  <Route path="/profile" element={<Profile/>}/>
+                  <Route path="/voting" element={<MainLayout/>}/>
                 </Route>
-                <Route path="admin" element={<AdminLayout/>}/>
-                <Route path="login" element={<SignIn/>} />
-                <Route path="register" element={<SignUp/>} />
-                <Route path="*" element={<Error404/>} />
+                <Route path="/admin" element={<AdminLayout/>}/>
+                <Route path="/login" element={<SignIn/>} />
+                <Route path="/register" element={<SignUp/>} />
+                {/* <Route path="/*" element={<Error404/>} /> */}
             <Route/>
         </Routes>
         <Footer/>

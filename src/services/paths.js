@@ -1,7 +1,7 @@
 export const Paths = {
-    HOME: '/',
-    LOGIN: '/login',
-    VOTE: '/account/voting',
-    PROFILE: '/account/profile',
-    ADMIN: '/admin'
+    HOME: '/votingapp.github.io/',
+    LOGIN: '/votingapp.github.io/login',
+    VOTE: '/votingapp.github.io/account/voting',
+    PROFILE: '/votingapp.github.io/account/profile',
+    ADMIN: '/votingapp.github.io/admin'
 }
