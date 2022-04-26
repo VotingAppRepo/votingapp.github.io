@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/votingapp.github.io/static/css/main.d95bff29.css",
-    "main.js": "/votingapp.github.io/static/js/main.152abcff.js",
+    "main.js": "/votingapp.github.io/static/js/main.16296a92.js",
     "static/media/footer-bg.jpg": "/votingapp.github.io/static/media/footer-bg.458d0d7c79ef6fc74f38.jpg",
     "index.html": "/votingapp.github.io/index.html",
     "main.d95bff29.css.map": "/votingapp.github.io/static/css/main.d95bff29.css.map",
-    "main.152abcff.js.map": "/votingapp.github.io/static/js/main.152abcff.js.map"
+    "main.16296a92.js.map": "/votingapp.github.io/static/js/main.16296a92.js.map"
   },
   "entrypoints": [
     "static/css/main.d95bff29.css",
-    "static/js/main.152abcff.js"
+    "static/js/main.16296a92.js"
   ]
 }
