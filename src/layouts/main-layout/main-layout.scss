@@ -1,0 +1,45 @@
+.main-layout{
+  position: relative;
+  padding-top: 50px;
+  margin: 0 auto 30px auto;
+  width: 90%;
+  min-height: 600px;
+  .radio-groups{
+    margin: 20px 0;
+    width: 100%;
+    text-align: center;
+    & > div{
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+  .modal-card-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    span{
+      font-size: 21px;
+    }
+  }
+  .voting-closed{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    span{
+      font-weight: bolder;
+      font-size: xx-large;
+      margin-bottom: 50px;
+    }
+    div{
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      button{
+        width: 40%;
+      }
+    }
+  }
+}
+

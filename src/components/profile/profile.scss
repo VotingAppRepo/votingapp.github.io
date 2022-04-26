@@ -1,0 +1,36 @@
+.profile-layout{
+    position: relative;
+    min-height: 600px;
+    display: flex;
+    &-page{
+        width: 100%;
+        height: 100%;
+        padding: 30px 50px;
+    }
+    &-info{
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        height: 200px;
+        .MuiAvatar-root{
+            border: 3px solid #6f42c1;
+        }
+    }
+    &-textfield{
+        span{
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        margin-bottom: 15px;
+    }
+    .editProfile{
+        position: absolute;
+        top: 0px;
+        right: -20px;
+    }
+    .model-table-cell{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}

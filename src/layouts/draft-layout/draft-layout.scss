@@ -1,0 +1,28 @@
+.draft-layout{
+    background-color: darkslategray;
+    min-height: 600px;
+    padding: 100px 30px;
+    color: white;
+    .title{
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .carousel-item > div{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        img{
+            height: inherit;
+        }
+    }
+    a{
+        color: white;
+        transition: all 0.3s ease;
+        &:hover{
+            color: rgb(0, 0, 0);
+        }
+    }
+}
